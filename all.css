@@ -54,7 +54,8 @@ a {
 }
 
 body {
-  background: url("https://images.pexels.com/photos/5531542/pexels-photo-5531542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center/cover;
+  background: url("./image/main-page.webp") no-repeat center center/cover;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .wrap {
@@ -157,7 +158,6 @@ option {
 
 .headerTitle {
   font-family: "Chonburi", serif;
-  font-family: "Gravitas One", serif;
   font-size: 28px;
 }
 
