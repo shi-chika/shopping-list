@@ -26,7 +26,7 @@ function order() {
         alert('申し訳ありませんが最少注文数は3点です')
 
       } else if (num_getCount > 20) {
-        alert('申し訳ありませんが最高注文数は20点です')
+        alert('申し訳ありませんが最多注文数は20点です')
 
       } else {
         alert(getName +'様'+ '\nご利用いただきありがとうございます\n下記注文内容をご確認いただけます')
@@ -39,11 +39,11 @@ function order() {
         if (getType === "メンズ") {
           let price = parseInt(getCount) * 1899
           document.getElementById('orderPrice').textContent = price + "円";
-          alert("今だけお得！！今日メンズアイテムご購入の方にネクタイをプレゼントいたします！");
+          alert("今だけお得！！今日メンズのアイテムご購入の方にネクタイをプレゼントいたします！");
         } else if (getType === "レディース") {
           let price = parseInt(getCount) * 1499
           document.getElementById('orderPrice').textContent = price + "円";
-          alert("今だけお得！！今日レディースアイテムご購入の方にスカーフをプレゼントいたします！");
+          alert("今だけお得！！今日レディースのアイテムご購入の方にスカーフをプレゼントいたします！");
         }
       }
   
