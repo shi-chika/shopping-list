@@ -10,7 +10,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caveat&family=Chonburi&family=Diphylleia&family=Josefin+Sans:ital,wght@1,100..700&family=Kalam:wght@300;400&family=Kiwi+Maru&family=Klee+One&family=Krona+One&family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP&family=Protest+Strike&family=Shrikhand&family=Yusei+Magic&family=Zen+Kaku+Gothic+Antique&family=Zen+Kurenaido&display=swap" rel="stylesheet">     
     <!-- css -->
-    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="/all.css">
     <title>Online Shopping</title>
   </head>
   <body>
@@ -22,13 +22,12 @@
           オンラインストアへようこそ。<br><br>
         
           上記のフォームにご記入ください。<br>
-          最低購入数量は3点、最高購入数量は20点です。<br>
+          最少購入数は3点、最多購入数は20点です。<br>
           レディースのアイテムはすべて1499円、<br>
           メンズのアイテムはすべて1899円です。<br><br>
           
-          計算ボタンを押していただき、<br>
-          下にお客様の購入明細が表示されます。<br>
-          注文内容をご確認いただけます。    
+          注文ボタンを押していただき、<br>
+          下にお客様の明細が表示されます。<br>   
         </p>
         <button onclick="closeMsg()" class="closeMsg " >close</button>
         </div>
@@ -62,7 +61,7 @@
         <br>
       
           <div class="gridForm grid03  btns ">
-            <button onclick="order()" class="btn">金額計算</button>
+            <button onclick="order()" class="btn">注文</button>
             <button onclick="showMsg()" class="btn">ご利用ガイド</button>
           </div>
       
@@ -77,15 +76,16 @@
             <p>數量 : <span id="orderCount">未記入</span></p>
             <p>合計 : <span id="orderPrice">未記入</span></p>
           </div>
-      
+          
         </fieldset>
       </div>
+      
    
     
    
   
     <!-- JavaScript Bundle with Popper -->
   
-  <script src="./app.js"></script>
+  <script src="/app.js"></script>
   </body>
 </html>
